@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mango Music-芒果音乐</title>
+</head>
+
+<body>
+    <main>
+        <link rel="stylesheet" href="./style.css">
+
+        <div class="player">
+            <div class="title">
+                <span class="music-name">胆小鬼</span>
+                <span class="author">梁咏琪</span>
+            </div>
+            <svg class="iconpark-icon title-icon">
+                <use href="#music-cd"></use>
+            </svg>
+
+            <div class="cover">
+                <img src="./assets/Twins.jpg" alt="封面">
+            </div>
+            <div class="barcontainer">
+                <div class="bar"></div>
+            </div>
+            <div class="time">
+                <div class="starttime">00:00</div>
+                <div class="endtime"></div>
+            </div>
+
+            <div class="controller">
+                <svg class="iconpark-icon con hid playmodle rand">
+                    <use href="#shuffle-one"></use>
+                </svg>
+                <svg class="iconpark-icon con playmodle  cycle">
+                    <use href="#play-cycle"></use>
+                </svg>
+                <svg class="iconpark-icon con hid playmodle  once">
+                    <use href="#play-once"></use>
+                </svg>
+                <svg class="iconpark-icon con go-start">
+                    <use href="#go-start"></use>
+                </svg>
+                <svg class="iconpark-icon con hid pause">
+                    <use href="#pause"></use>
+                </svg>
+                <svg class="iconpark-icon con paly-one">
+                    <use href="#play-one"></use>
+                </svg>
+                <svg class="iconpark-icon con go-end">
+                    <use href="#go-end"></use>
+                </svg>
+
+                <svg class="iconpark-icon con list-onf ">
+                    <use href="#list-two"></use>
+                </svg>
+
+            </div>
+        </div>
+        <div class="list hid">
+            <ol>
+                <li>0</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ol>
+        </div>
+    </main>
+
+
+
+
+
+    <script src="./icon.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
